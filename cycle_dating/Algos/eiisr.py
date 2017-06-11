@@ -5,7 +5,7 @@ import time
 
 from cycle_dating.Algos import optim_virtual
 from cycle_dating.Utilities import use_data as ud, series
-from cycle_dating.Algos.Utilities import LinkedListEIISR
+from cycle_dating.Algos.Utilities.LinkedListEIISR import LinkedListEIISR
 
 def combo_loop_help(lst, curr_idx, curr_num, total_num, all_els, all_perms):
     """
