@@ -51,7 +51,7 @@ Represented with 10 points:
 <img src="Reduced40Points.png" width="550">
 </p>
 
-One therefore has the choice to represent the time series at varying compression rates. This may be seen as an alternative way to compress time series, than those given in Keogh et al., for example.
+One therefore has the choice to represent the time series at varying compression rates. This may be seen as an alternative way to compress time series, than those given in Keogh et al. (2004), for example.
 
 A short description of each algorithm is given below.
 
@@ -69,9 +69,23 @@ A stochastic search method based on swarm behaviour of animals. Was used as a be
 
 ### BSA-Bottom-up  (BSA-BU)
 
-This method works similarly to the bottom-up method presented in Keogh (2001). All peaks and troughs are initially assumed to be buy-sell points, and are eliminated based on how little they contribute to a high value for the objective function.
+This method works similarly to the bottom-up method presented in Keogh et al. All peaks and troughs are initially assumed to be buy-sell points, and are eliminated based on how little they contribute to a high value for the objective function.
 
 ### Hierarchical method
 
-A method presented by my supervisor, also used for comparison. Was outperformed by BSA-EIISR, BSA-BU and SGA.
+A method presented by my supervisor, in Litvine (2016). Also used for comparison. Was outperformed by BSA-EIISR, BSA-BU and SGA.
 
+References:
+
+Keogh, E. et al. (2004). "Segmenting time series: a survey and novel approach". In: Data
+mining in Time Series Databases. Ed. by M. Last, A. Kandel, and H. Bunke. World
+Scientific Publishing Company, pp. 1-21. ISBN: 978-981-4486-54-5.
+
+Igor Nikolaevich Litvine (2016).   Economic  and  Financial  Cycles  in  South  Africa.   Economies  and
+finances.  Universit ́e de Lorraine.  English.
+
+Wu, X. and Huang, D. (2009). "Representing Financial time series based on important
+extrema points". In: Intelligent Information Technology Application, 2009. IITA 2009.
+Third International Symposium on Intelligent Information Technology Applications. (Nanchang,
+China). Ed. by Q. Luo and M. Zhu. Vol. 1. The Institute of Electrical and Electronics
+Engineers, Inc., pp. 501-504. ISBN: 978-0-7695-3859-4.
