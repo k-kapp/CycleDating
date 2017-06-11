@@ -75,7 +75,7 @@ This method works similarly to the bottom-up method presented in Keogh et al. Al
 
 A method presented by my supervisor, in Litvine (2016). Also used for comparison. Was outperformed by BSA-EIISR, BSA-BU and SGA.
 
-References:
+## References:
 
 Keogh, E. et al. (2004). "Segmenting time series: a survey and novel approach". In: Data
 mining in Time Series Databases. Ed. by M. Last, A. Kandel, and H. Bunke. World
