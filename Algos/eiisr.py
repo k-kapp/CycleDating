@@ -267,12 +267,12 @@ if __name__ == "__main__":
     Example of the usage of EIISR
     """
     length = 16000
-    dim = 30
+    dim = 50
     series_obj = series.Series(series_len=length)
     begin_time = time.time()
     eiisr_obj = EIISR(dim, True)
     eiisr_obj.set_data(series_obj)
     pos, fitness = eiisr_obj.optimise()
     print ("EIISR time: %f" % (time.time() - begin_time))
-    ud.plot_solution(series_obj, pos)
+    ud.plot_solution(series_obj, pos, show_orig=True)
     print ("EIISR fitness: %f" % fitness)
