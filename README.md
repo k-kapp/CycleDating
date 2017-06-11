@@ -1,5 +1,5 @@
 # CycleDating
-##Algorithms for finding cycles in time series, based on my master's thesis. May also be used as a data reduction/filtering method.
+## Algorithms for finding cycles in time series, based on my master's thesis. May also be used as a data reduction/filtering method.
 
 Algorithms designed to optimise the following problem, were developed in the MSc thesis:
 
