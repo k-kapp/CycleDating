@@ -56,7 +56,7 @@ Maximise
 subject to
 
 <p align="center">
-<img src="Formula.png">
+<img src="Constraints.png">
 </p>
 
 An optimal solution to the problem above can be interpreted as optimal times to buy and sell a given asset, disregarding transaction costs. Cycles of buy-sell times are therefore found. An example is shown below, where red dots represent the near-optimal buy-sell points found.
