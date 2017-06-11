@@ -26,8 +26,8 @@ series_obj = series.Series(series_len=10000)
 else:
 """
 We could also use real data. The file 'test_data.csv' is in the same directory as this script, for example.
-Multiple time series can be imported from the same data file. Here, the first time series in the data file is used
-(hence the zero index).
+Multiple time series can be imported from the same data file (an example of such a file is shown below this code sample). 
+Here, the first time series in the data file is used (hence the zero index).
 """
 series_obj = use_data.make_series_basic("test_data.csv")[0]
 
@@ -36,6 +36,12 @@ eiisr_obj.set_data(series_obj)
 pos, fitness = eiisr_obj.optimise()
 use_data.plot_solution(series_obj, pos, linewidth=2, scatter=True, scatter_size=12)
 ```
+
+Example of an appropriate data file is shown below. Note that each time series must have its own column.
+
+<p align="center">
+<img src="DataExample.png" width="450">
+</p>
 
 ## Background
 
