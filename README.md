@@ -1,5 +1,42 @@
 # CycleDating
 
+Prerequisites: 
+
+Python 3, and pip package manager. Dependencies are Numpy, matplotlib and pandas.
+
+Install:
+
+```
+pip install cycle_dating
+```
+
+Example usage:
+
+```
+from cycle_dating.Algos import eiisr
+from cycle_dating.Utilities import series, use_data
+
+generate_random = True
+
+if generate_random:
+"""
+we can generate a random time series, based on a random walk process
+"""
+series_obj = series.Series(series_len=10000)
+else:
+"""
+We could also use real data. The file 'test_data.csv' is in the same directory as this script, for example.
+Multiple time series can be imported from the same data file. Here, the first time series in the data file is used
+(hence the zero index).
+"""
+series_obj = use_data.make_series_basic("test_data.csv")[0]
+
+eiisr_obj = eiisr.EIISR(dim=20)
+eiisr_obj.set_data(series_obj)
+pos, fitness = eiisr_obj.optimise()
+use_data.plot_solution(series_obj, pos, linewidth=2, scatter=True, scatter_size=12)
+```
+
 Algorithms designed to optimise the following problem, were developed in the MSc thesis:
 
 Maximise
