@@ -37,6 +37,8 @@ pos, fitness = eiisr_obj.optimise()
 use_data.plot_solution(series_obj, pos, linewidth=2, scatter=True, scatter_size=12)
 ```
 
+## Background
+
 Algorithms designed to optimise the following problem, were developed in the MSc thesis:
 
 Maximise
@@ -102,7 +104,7 @@ This method finds optimal points via a coordinate ascent approach. Very fast, bu
 
 ### Particle Swarm Optimisation (PSO)
 
-A stochastic search method based on swarm behaviour of animals. Was used as a benchmark in the thesis. It did not perform as well as the other algorithms.
+A stochastic search method based on swarm behaviour of animals. Was used as a benchmark in the thesis. It did not perform as well as the other algorithms. For an excellent introduction to the PSO algorithm and some of its variants, please consult Engelbrecht (2007).
 
 ### BSA-Bottom-up  (BSA-BU)
 
@@ -113,6 +115,9 @@ This method works similarly to the bottom-up method presented in Keogh et al. Al
 A method presented by my supervisor, in Litvine (2016). Also used for comparison. Was outperformed by BSA-EIISR, BSA-BU and SGA.
 
 ## References:
+
+Engelbrecht, A. P. (2007). Computational Intelligence: An Introduction (2nd ed). Chichester,
+England: Wiley. ISBN: 978-0-470-03561-0.
 
 Keogh, E. et al. (2004). "Segmenting time series: a survey and novel approach". In: Data
 mining in Time Series Databases. Ed. by M. Last, A. Kandel, and H. Bunke. World
