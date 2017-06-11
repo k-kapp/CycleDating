@@ -1,7 +1,7 @@
 import copy
 
-import Algos.optim_virtual as optim_virtual
-from Utilities import use_data as ud
+import cycle_dating.Algos.optim_virtual as optim_virtual
+from cycle_dating.Utilities import use_data as ud
 
 
 class Hierarch(optim_virtual.Optim):

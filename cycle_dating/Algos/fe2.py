@@ -1,4 +1,4 @@
-from Algos import optim_virtual as ov
+from cycle_dating.Algos import optim_virtual as ov
 
 
 def gen_nums(num_lim, start):

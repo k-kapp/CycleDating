@@ -3,10 +3,9 @@ __author__ = 'User'
 import copy
 import time
 
-from Algos import optim_virtual
-from Utilities import use_data as ud, series
-from Utilities.LinkedListEIISR import LinkedListEIISR
-
+from cycle_dating.Algos import optim_virtual
+from cycle_dating.Utilities import use_data as ud, series
+from cycle_dating.Algos.Utilities import LinkedListEIISR
 
 def combo_loop_help(lst, curr_idx, curr_num, total_num, all_els, all_perms):
     """

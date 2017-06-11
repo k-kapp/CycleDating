@@ -6,8 +6,7 @@ import matplotlib.pyplot as plt
 import matplotlib.colors as plt_cols
 import numpy as np
 
-from Utilities import series as ser
-
+from cycle_dating.Utilities import series as ser
 
 class BSPointDuplicateError(Exception):
     def __str__(self):

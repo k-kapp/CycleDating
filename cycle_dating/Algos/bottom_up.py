@@ -1,8 +1,8 @@
 import time
 
-from Utilities import use_data as ud, series
-from Algos import optim_virtual
-from Utilities.LinkedList import LinkedList
+from cycle_dating.Utilities import use_data as ud, series
+from cycle_dating.Algos import optim_virtual
+from cycle_dating.Algos.Utilities.LinkedList import LinkedList
 
 
 class Node:

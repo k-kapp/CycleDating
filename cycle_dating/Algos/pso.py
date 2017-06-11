@@ -4,11 +4,10 @@ import time
 
 import numpy as np
 
-import Algos.optim_virtual as ov
-from Utilities import use_data as ud, series
-from Algos import sga as nlg
-from Utilities.gen_types import LinearScale
-
+import cycle_dating.Algos.optim_virtual as ov
+from cycle_dating.Utilities import use_data as ud, series
+from cycle_dating.Algos import sga as nlg
+from cycle_dating.Algos.Utilities.gen_types import LinearScale
 
 class DomainError(Exception):
     def __str__(self):

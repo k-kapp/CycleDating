@@ -4,10 +4,10 @@ import copy
 import numpy
 import numpy as np
 
-from Algos import optim_virtual as ov
-from Utilities.use_data import GenerateProper
-from Utilities import use_data as ud, series
-from Utilities.SGAQueue import SGAQueue
+from cycle_dating.Algos import optim_virtual as ov
+from cycle_dating.Utilities.use_data import GenerateProper
+from cycle_dating.Utilities import use_data as ud, series
+from cycle_dating.Algos.Utilities.SGAQueue import SGAQueue
 
 def np_sign(val):
     return numpy.sign(val)
