@@ -2,7 +2,7 @@
 
 Prerequisites: 
 
-Python 3, and pip package manager. Dependencies are Numpy, matplotlib and pandas.
+Python 3, and pip package manager. Dependencies are Numpy, matplotlib and pandas. However, these should be installed automatically via the install command below.
 
 Install:
 
