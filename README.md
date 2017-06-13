@@ -96,7 +96,7 @@ Represented with 10 points:
 <img src="Reduced40Points.png" width="550">
 </p>
 
-One therefore has the choice to represent the time series at varying compression rates. This may be seen as an alternative way to compress time series, than those given in Keogh et al. (2004), for example.
+One therefore has the choice to represent the time series at varying compression rates. This may be seen as an alternative way to compress time series, to those given in Keogh et al. (2004), for example.
 
 A short description of each algorithm is given below.
 
