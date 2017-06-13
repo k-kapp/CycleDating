@@ -129,7 +129,7 @@ Keogh, E. et al. (2004). "Segmenting time series: a survey and novel approach". 
 mining in Time Series Databases. Ed. by M. Last, A. Kandel, and H. Bunke. World
 Scientific Publishing Company, pp. 1-21. ISBN: 978-981-4486-54-5.
 
-Igor Nikolaevich Litvine (2016).   Economic  and  Financial  Cycles  in  South  Africa.   Economies  and
+Igor Nikolaevich Litvine (2016).  Economic  and  Financial  Cycles  in  South  Africa.   Economies  and
 finances.  Universit ́e de Lorraine.  English.
 
 Wu, X. and Huang, D. (2009). "Representing Financial time series based on important
