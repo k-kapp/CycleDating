@@ -42,10 +42,27 @@ class Optim(metaclass=abc.ABCMeta):
         """
         Abstract method. Derived classes' optimisation functions will
         implement this.
+
+        Args:
+            **kwargs: Any keyword arguments necessary for the functioning of the given optimisation procedure
+
+        Returns (tuple) := (numpy.ndarray<int>, float):
+            a tuple of size two; first element is an array of optimal indices (corresponding to the idx attribute of the
+            Point data type, a list of which composes a time series) and the value of the objective function for the
+            solution represented by these optimal indices. Also see the 'Point' class in 'series.py'
         """
         return
 
     def optimise(self, **kwargs):
+        """
+        The actual method that will get called on objects representing optimisation procedures
+
+        Args:
+            **kwargs: Any keyword arguments necessary for the functioning of the given optimisation procedure
+
+        Returns (tuple) := (numpy.ndarray<int>, float):
+            Returns whatever _optimise returns; see the _optimise function above for a description of return values
+        """
         if not self.data_set:
             raise NoDataError
         return self._optimise(**kwargs)
